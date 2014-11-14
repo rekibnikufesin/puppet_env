@@ -1,0 +1,12 @@
+---
+:backends:
+  - yaml
+  - json
+:hierarchy:
+  - "host/%{::host}"
+  - "os/%{::osfamily}"
+  - common
+:json:
+  :datadir:
+:yaml:
+  :datadir: "/etc/puppet/hiera"

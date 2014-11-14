@@ -1,0 +1,6 @@
+---
+classes:
+  - resolvconf
+resolvconf::nameserver:
+  - '8.8.8.8'
+  - '4.2.2.1'
