@@ -3,7 +3,7 @@
   - yaml
   - json
 :hierarchy:
-  - "host/%{::host}"
+  - "host/%{::fqdn}"
   - "os/%{::osfamily}"
   - common
 :json:
